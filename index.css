@@ -1,5 +1,5 @@
 body{
- 
+
 }
 *{  
   box-sizing: border-box;
@@ -7,25 +7,27 @@ body{
   padding: 0;
 }
 
-.conteiner6{
-  display:flex;
+.container6{
+  display: flex;
+  background-attachment:scroll ;
+  background-repeat: no-repeat;
+  background-size: 1200px 1200px;
+  background-image: url(06.jpg);
 
 }
 .row{
-  display:block;
+  display:flex;
   position:relative;
-  flex-direction: column;
+  width: 100%;
   height: 100vh;
-  background:scroll url(06.jpg) no-repeat 100% 100% ;
-  background-size: cover;
-
-
+  flex-direction: column;
+  
 }
 .firscont{
 	display:flex;
-  position:relative;
-  justify-content: space-between;
-  background: inherit;
+  	position:relative;
+  	justify-content: space-between;
+  	background: inherit;
 	width: 100%;
 }
 .maincall{
@@ -56,6 +58,7 @@ body{
 }
 .canfon{
 	position: absolute;
+	display: flex;
     width:100%;
     height:100vh;
     background:#000;
@@ -89,10 +92,9 @@ body{
 
 } 
 .ggoo{
-	display:block;
+	display:flex;
 	position: relative;
 	margin:0 auto 3% auto;
-	height: 35vh;
 	width:95%;
 	z-index: 3;	
 }
