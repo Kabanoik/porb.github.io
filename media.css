@@ -1,0 +1,63 @@
+@media screen and (max-width: 550px){
+  .container6{
+
+  }
+
+  .row{
+  
+  }
+  .maincall{
+    width:auto;
+    text-align: center;
+    top:0;
+    left:0;
+    margin-top:18%;
+  }
+  .maincall h1{
+    font-size: 6vw;
+    padding:0 2%;
+  }
+  .callback h1{
+    font-size: 5vw;
+    padding:0 2%;
+  }
+  .firscont{
+    flex-direction: column;
+  }
+  .col-sm-4{
+    width: 60%;
+    margin:5% auto;
+    padding:3%;
+  }
+  .form-control{
+    font-size: 4vw;
+    border-bottom:1px solid #fff;
+  }
+  input::-webkit-input-placeholder{
+    color: #111; 
+  }
+  .pulse{
+    font-size: 3vw;
+  }
+  .ggoo{
+    
+  }
+  .owl-carousel img{
+    height: 20vh;
+  }
+  .phonefooter{
+    width:30%;
+    left:60%;
+  }
+  .phonefooter p{
+    font-size: 3vw;
+  }
+  .phonefooter a{
+    font-size: 3vw;
+  }
+  .footerRights{
+    font-size: 2vw;
+  }
+
+
+}
