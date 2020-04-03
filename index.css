@@ -16,7 +16,7 @@ body{
   position:relative;
   flex-direction: column;
   height: 100vh;
-  background:fixed url(06.jpg) no-repeat 50% 50% ;
+  background:fixed url(06.jpg) no-repeat 100% 100% ;
   background-size: cover;
 
 
